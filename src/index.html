@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Control de Acceso IEEE</title>
+</head>
+<body>
+
+    <div class = "login-box">
+
+        
+        <h2>Rama Estudiantil IEEE-UAEMéx</h2>
+        <h3>Control de Acceso</h3>
+        
+
+        <section class="form">
+
+            <form action="/action_page.php">
+
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+
+                <label for="gender">Género :</label><br>
+                <input type="radio" name="gender"> Masculino <br>
+                <input type="radio" name="gender"> Femenino  <br> <br>
+
+                <label for="email">Correo Electrónico: </label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <br>
+
+                <label for="reason">Motivo de acceso: </label> <br>
+                <select name="reason">
+                    <option value="value1"> Acceso a Internet</option>
+                    <option value="value2"> Uso de Impresora</option>
+                    <option value="value3" selected> Uso de Cubículos</option>
+                    <option value="value4"> Área de estudio</option>
+                    <option value="value5"> Acceso a taller</option>
+                    
+
+
+                    
+                </select>
+                <br>
+                <br>
+
+                <input type="submit" value="Registrar acceso">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
